@@ -14,7 +14,8 @@ glob.sync('./src/pages/**/main.js').forEach(path => {
   pages[pageName] = {
     entry: path,
     filename: pageName + '.html',
-    template: pageName + '.html', // If doesn't exist, fallback to 'public/index.html'
+     // If doesn't exist, fallback to 'public/index.html'
+    template: pageName + '.html',
     title: titles[pageName],
     chunks: ['chunk-vendors', 'chunk-common', pageName],
   }

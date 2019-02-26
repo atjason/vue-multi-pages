@@ -1,3 +1,5 @@
+![](https://ws3.sinaimg.cn/large/006tKfTcgy1g0k3dhfdl3j31180u04it.jpg)
+
 # vue-multi-pages
 
 Scaffold for Vue Multiple Pages app.
